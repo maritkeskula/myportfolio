@@ -1,0 +1,209 @@
+body {
+  background-color: #FF78A9;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*navbar*/
+
+.navbar a {
+  text-decoration: none;
+  color: #F5F5F5;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: #FFF735;
+  text-decoration-thickness: 3px;
+}
+.navbar {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+  padding-top: 2em;
+}
+
+/*hero*/
+
+.intro {
+  padding-top: 8em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.firstintro {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: stretch;
+}
+.secondintro {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: baseline;
+	align-content: stretch;
+}
+p.hello {
+  color: #F5F5F5;
+  font-size: 2em;
+}
+h1 {
+  color: #FFF735;
+  font-size: 7em;
+  font-weight: 400;
+  margin: 0 0.2em;
+}
+
+/*button*/
+
+.button {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  padding-top: 13em;
+}
+button.landingbutton {
+  background-color: #FF78A9;
+  padding: 0.4em 0.7em;
+  border: solid 3px #F5F5F5;
+  color: #FFF735;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+button.landingbutton:hover {
+  border: solid 3px #FFF735;
+  background-color: #FFF735;
+  color: #FF78A9;
+  cursor: pointer;
+}
+
+/*my portfolio*/
+
+.myportfolio {
+  padding-top: 8em;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+h2 {
+  font-size: 5em;
+  font-weight: 400;
+  color: #FFF735;
+  padding-left: 0.3em;
+}
+h2.my {
+  color: #F5F5F5;
+}
+
+/*filter*/
+
+.dropbtn {
+  background-color: #FF78A9;
+  color: #F5F5F5;
+  border: none;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-left: 7em;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+p.arrowdown {
+  color: #FFF735;
+  font-stretch: 150%;
+  padding-left: 0.3em;
+}
+p.arrowdown:hover {
+  color: #e6de00;
+}
+.dropbtn:hover {
+  cursor: pointer;
+  color: #d9d9d9;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FF78A9;
+  overflow: auto;
+  border: 3px solid #fff735;
+  margin-left: 9.5em;
+  width: 10em;
+}
+.dropdown-content a {
+  color: #F5F5F5;
+  padding: 0.7em 0.9em;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff735;
+  text-decoration-thickness: 3px;
+}
+.show {
+  display: block;
+}
+
+/*content*/
+
+.container {
+  padding-left: 7em;
+  padding-right: 7em;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.item {
+  width: 25em;
+  height: 25em;
+  background-image: url(images/logo.png);
+  display: inline-block;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+button.buttonimg {
+  font-size: 2em;
+  font-weight: 400;
+  text-decoration: none;
+  color: #FF78A9;
+  border: none;
+  background: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+.item:hover {
+  cursor: pointer;
+  background-color: #fff735;
+}
